@@ -28,7 +28,7 @@ async function save(file){
 bot.login(config.token)
 
 bot.on("ready", () => {
-    console.log("By Shiro")
+    console.log("By Shiro ")
     bot.user.setPresence({ activity: { name: '',type:"PLAYING"}, status: 'online' })
 })
 
